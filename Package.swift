@@ -24,7 +24,7 @@ let package = Package(
             name: "SegementSlide",
             dependencies: [],
             path: "Source",
-            sources: ["Content", "General", "Header", "Switcher", "Utility"]
+            sources: ["Badge", "Content", "General", "Header", "Segement", "Utility"]
         )
     ]
 )
