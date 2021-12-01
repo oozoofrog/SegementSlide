@@ -13,7 +13,7 @@ public enum SwitcherType {
     case segement
 }
 
-public protocol SegementSlideDefaultSwitcherViewDelegate: class {
+public protocol SegementSlideDefaultSwitcherViewDelegate: AnyObject {
     var titlesInSegementSlideSwitcherView: [String] { get }
     
     func segementSwitcherView(_ segementSlideSwitcherView: SegementSlideDefaultSwitcherView, didSelectAtIndex index: Int, animated: Bool)
